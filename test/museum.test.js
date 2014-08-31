@@ -111,7 +111,11 @@ describe('museum.wrap()', function () {
       }, 1);
     }).then(function (result) {
       expect(result).to.equal('hello');
-      done();
+      museum.get('wrapped')
+      .then(function (result) {
+        expect(result).to.equal('hello');
+        done();
+      });
     }, function (err) {
       if (err) return done(err);
     });
