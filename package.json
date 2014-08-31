@@ -1,6 +1,6 @@
 {
   "name": "museum",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "A friendly but powerful cache manager.",
   "main": "lib/index.js",
   "scripts": {
