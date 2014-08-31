@@ -1,0 +1,37 @@
+{
+  "name": "museum",
+  "version": "0.0.1",
+  "description": "A friendly but powerful cache manager.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/originalmachine/museum.git"
+  },
+  "keywords": [
+    "cache",
+    "cache",
+    "manager",
+    "redis",
+    "museum"
+  ],
+  "author": "Nicholas Young <nicholas@nicholaswyoung.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/originalmachine/museum/issues"
+  },
+  "homepage": "https://github.com/originalmachine/museum",
+  "dependencies": {
+    "debug": "^1.0.4",
+    "q": "^1.0.1",
+    "redis": "^0.12.1"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "express": "^4.8.7",
+    "gulp": "^3.8.7",
+    "gulp-mocha": "^1.0.0"
+  }
+}
