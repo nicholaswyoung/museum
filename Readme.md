@@ -1,5 +1,7 @@
 # Museum
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/nicholaswyoung/museum.svg)](https://greenkeeper.io/)
+
 Caching is hard work. Let Museum make it easy.
 
 ## Usage
